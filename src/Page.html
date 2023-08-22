@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <div>
+      <input type="text" id="folderId" placeholder="Enter folder ID">
+      <button onclick="submitFolderId()">Submit</button>
+    </div>
+    <script>
+      function submitFolderId() {
+        var folderId = document.getElementById('folderId').value;
+        google.script.run.createSlidesFromImages(folderId);
+      }
+    </script>
+  </body>
+</html>
