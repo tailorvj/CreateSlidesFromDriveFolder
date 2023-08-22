@@ -2,6 +2,24 @@
 
 A Google Slides Editor Add-on that reads all images in a Google Drive folder and creates a slide for each image in the current presentation
 
+## Updates
+
+### Version 0.0.2
+
+- Sidebar updated with status and with each image
+- Image slides are created one at a time
+- Script picks up both PNG and JPG files
+- Sidebar styling improved a bit (Using Google Workspace standard CSS)
+
+
+### Version 0.0.1
+
+- Editor add-on
+- Sidebar menu item
+- Type Drive folder id and submit
+- Logging to Script console
+- Creates image slides from PNGs
+
 ### Develop
 
 Clone this repo. This goes without saying, right?!
