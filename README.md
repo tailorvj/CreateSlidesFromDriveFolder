@@ -12,7 +12,7 @@ A Google Slides Editor Add-on that reads all images in a Google Drive folder and
 - Sidebar styling improved a bit (Using Google Workspace standard CSS)
 
 
-![Sidebar Version 0.0.2](img/20230822-sidebar-v0.0.2.png)
+<img src="img/20230822-sidebar-v0.0.2.png" alt="Sidebar Version 0.0.2" width="300"/>
 
 #### Version 0.0.1
 
