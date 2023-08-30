@@ -10,6 +10,6 @@ image:
 tasks:
   - init: npm install
 
-  vscode:
+vscode:
   extensions:
     - dbaeumer.vscode-eslint@2.1.23
