@@ -26,7 +26,7 @@ function createSlidesFromImages(folderId) {
   
     // Get the folder and its files
     var folder = DriveApp.getFolderById(folderId);
-    var filesIterator = folder.getFilesByType(MimeType.PNG); // Adjusted to PNG
+    var filesIterator = folder.getFilesByType(MimeType.JPEG); // Adjusted to JPG
   
     // Count the total number of files
     var files = [];
