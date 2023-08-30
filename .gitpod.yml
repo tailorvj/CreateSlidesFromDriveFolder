@@ -5,11 +5,11 @@
 # Learn more from ready-to-use templates: https://www.gitpod.io/docs/introduction/getting-started/quickstart
 
 image:
-    file: .gitpod-Dockerfile
+    file: .gitpod.Dockerfile
 
 tasks:
   - init: npm install
 
 vscode:
   extensions:
-    - dbaeumer.vscode-eslint@2.1.23
+    - dbaeumer.vscode-eslint
