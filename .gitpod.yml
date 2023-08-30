@@ -8,4 +8,8 @@ image:
     file: .gitpod-Dockerfile
 
 tasks:
-  - init: npm install && npm install -g @google/clasp
+  - init: npm install
+
+  vscode:
+  extensions:
+    - dbaeumer.vscode-eslint@2.1.23
