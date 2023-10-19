@@ -1,4 +1,4 @@
-FROM node:18
+FROM node:20
 
 # Install global npm packages
 RUN npm install -g @google/clasp
